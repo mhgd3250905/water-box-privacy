@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Water Box — Account Deletion</title>
+<meta name="robots" content="noindex">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.7 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 760px; margin: 0 auto; padding: 24px 20px 64px; color: #1c2733; background: #f7fafc; }
+  main { background: #fff; border-radius: 14px; padding: 28px 30px; box-shadow: 0 6px 24px rgba(28, 39, 51, .07); }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 28px 0 8px; }
+  p, li { color: #33414f; }
+  a { color: #0b6bcb; }
+  .mail { display: inline-block; background: #eaf3ff; border-radius: 8px; padding: 10px 16px; font-weight: 600; }
+  .zh { font-size: 15px; color: #4a5a68; background: #f2f6fa; border-radius: 10px; padding: 14px 18px; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #10161d; } main { background: #18212b; }
+    h1 { color: #e8eef4; } h2 { color: #dce6ef; } p, li { color: #b8c4cf; }
+    .mail { background: #1d3050; color: #cfe2ff; } .zh { background: #1f2933; color: #a6b3bf; }
+  }
+</style>
+</head>
+<body>
+<main>
+<h1>Water Box — Account Deletion</h1>
+
+<h2>How to request deletion</h2>
+<p>To delete your Water Box server account (sign-in session, membership snapshot, and the Google profile data associated with it: account identifier, name, email, and avatar), send an email from the Google account you signed in with:</p>
+<p><a class="mail" href="mailto:mhgd3250905@gmail.com?subject=Water%20Box%20Account%20Deletion%20Request">mhgd3250905@gmail.com</a></p>
+<p>Please use the subject line <strong>“Water Box Account Deletion Request”</strong> so the request is routed correctly. Deletion requests are processed manually, usually within 7 days.</p>
+
+<h2>What deletion covers</h2>
+<ul>
+  <li>Server-side sign-in session and membership snapshot stored in Hydrate Lab's backend (Cloudflare Worker + D1).</li>
+  <li>The Google account identifier, name, email address, and avatar associated with your Water Box account.</li>
+</ul>
+
+<h2>What deletion does not cover</h2>
+<ul>
+  <li><strong>Data on your device</strong> (hydration records, goals, scene settings): remove it yourself via Android Settings → Apps → Water Box → Clear storage, or by uninstalling the app.</li>
+  <li><strong>Google Play subscriptions</strong>: cancel them in Google Play subscription settings. Deleting your Water Box account does not cancel an active subscription.</li>
+  <li><strong>Google account data</strong> held by Google itself, or purchase records retained by Google Play and RevenueCat under their own policies.</li>
+</ul>
+
+<h2>After deletion</h2>
+<p>Once the server account is deleted, signing in again creates a fresh account with no previous membership linkage except what Google Play restore can rebuild for active purchases.</p>
+
+<div class="zh" lang="zh-CN">
+<strong>中文摘要</strong>：用登录 Water Box 的 Google 账号发邮件到 mhgd3250905@gmail.com，主题写“Water Box Account Deletion Request”，通常 7 天内人工处理。删除范围是服务器端的登录会话、会员快照和关联的 Google 资料数据；本机数据请用系统“清除存储”或卸载自行删除；Google Play 订阅需在 Play 中单独取消；Google 与 RevenueCat 依各自政策保留的交易记录不在删除范围内。
+</div>
+</main>
+</body>
+</html>
